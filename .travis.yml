@@ -1,0 +1,26 @@
+sudo: false
+language: ruby
+rvm:
+- 2.7.2
+branches:
+  only:
+  - jekyll
+script:
+- bundle exec jekyll build
+after_success:
+- mkdir tmp
+- cd tmp
+- git init
+- git config user.name "travis-ci"
+- git config user.email "travis@travis-ci.org"
+- cp -R ../_site/* .
+- git add -A .
+- git commit -m "Generated Jekyll Site by Travis CI - ${TRAVIS_BUILD_NUMBER}"
+- git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:${TARGET_BRANCH}
+  > /dev/null 2>&1
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - GH_REF: github.com/mrdekk/itw66.ru.git
+  - TARGET_BRANCH: master
+  - secure: P+yl8K5EYACaSp+O5eI8rjz2H9fMeKHQhz5SSdNQtCi3VajZ711He1dBr/VAmt6OfFZ5118a/PBLEu/0foD8tgUS4DXTjYfWb3MATiSDCYQBIan3/T1Excha47oNZ74M8VfSq568GeS2foQPWz0hEYgPh5s+CBUaLzj5J8vQBtbYxoD1TZXLfJ/Sd0Ww5Ua1+2YyJDYq0ewMaf1W58ML7K0SgWsg9CADqg30ie5hyzNLc3pKHB1/ji5jY7TdHL/nFzYcBIGmMSScDg/KgXnGVOSOLTC4/YKscNmo3/RSe/JEHOo8VKg4O1702pWsHtpefIoshmb2BIuhzLyNl6y6BUV76rG3CQ8jXqOsS7R41kpucTRcUjW1bp7MBEsbox0LN2HeaalCYnbfnLaCYbJdGPcvZy7Ln6yYIn64C8awmplFugjcSswnLvJEflJgrK04KkTy1Td/iJMAu6yUuwce/7RII5wOALoyXAHT5c/82qeF77kmuOaweXj34R+QL+iu0WN6Y/FBbL5PN0Bna8+VRak8td2KREEQbc4Yu0TXKniPXhWGecSoU2Qa3Gko1Y7j7FrwVMZM2GAS/dnsXqqoFcKDZhJPSyexMXUEJkm5Z6nfbVC0RsGzGmlweT9gnJeVAqcsiWpNCr4sHEGwLNmk7d1Iu1VyjTtuJp08k0cRomw=
