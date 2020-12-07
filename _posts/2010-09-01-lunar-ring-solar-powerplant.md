@@ -6,6 +6,7 @@ image:  images/2010-09-01-lunar-ring-01.jpg
 author: MrDekk
 tags:   [альтернативная энергетика, луна, будущее]
 permalink: /blog/space/16.html
+blogcat: Космос
 ---
 
 
