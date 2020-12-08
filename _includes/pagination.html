@@ -6,19 +6,19 @@
         <div class="pagination__list">
           {% if paginator.previous_page %}
           {% if paginator.previous_page == 1 %}
-            <a class="previous-link" href="/"><i class="ion ion-ios-arrow-back"></i> Prev</a>
+            <a class="previous-link" href="/"><i class="fa fa-hand-o-left"></i> Более новые</a>
           {% else %}
-            <a class="previous-link" href="/page/{{ paginator.previous_page }}/"><i class="ion ion-ios-arrow-back"></i>  Prev</a>
+            <a class="previous-link" href="/page/{{ paginator.previous_page }}/"><i class="fa fa-hand-o-left"></i>  Более новые</a>
           {% endif %}
     
           {% else %}
-            <span class="prev-disabled"><i class="ion ion-ios-arrow-back"></i> Prev</span>
+            <span class="prev-disabled"><i class="fa fa-hand-o-left"></i> Более новые</span>
           {% endif %}
     
           {% if paginator.next_page %}
-            <a class="next-link" href="{{ site.baseurl }}/page/{{ paginator.next_page }}/">Next <i class="ion ion-ios-arrow-forward"></i></a>
+            <a class="next-link" href="{{ site.baseurl }}/page/{{ paginator.next_page }}/">Более старые <i class="fa fa-hand-o-right"></i></a>
           {% else %}
-            <span class="next-disabled">Next <i class="ion ion-ios-arrow-forward"></i></span>
+            <span class="next-disabled">Более старые <i class="fa fa-hand-o-right"></i></span>
           {% endif %}
         </div>
       </nav>

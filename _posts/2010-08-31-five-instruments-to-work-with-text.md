@@ -2,7 +2,7 @@
 layout: post
 title:  "5 инструментов работы с текстом, которые вы обязаны знать."
 date:   2010-08-31
-image:  images/2010-08-31-unix-tools.png
+image:  images/2010/08/2010-08-31-unix-tools.png
 author: MrDekk
 tags:   [unix, утилиты, администрирование]
 permalink: /blog/12.html

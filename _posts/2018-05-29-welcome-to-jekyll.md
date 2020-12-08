@@ -2,7 +2,6 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2018-05-29
-image:  images/02.jpg
 author: MrDekk
 tags:   [Jekyll, Something]
 ---

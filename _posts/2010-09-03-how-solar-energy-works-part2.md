@@ -2,7 +2,7 @@
 layout: post
 title:  "Как работает солнечная энергия. Часть 2."
 date:   2010-09-03
-image:  images/2010-09-03-how-solar-energy-works-p2-01.jpg
+image:  images/2010/09/2010-09-03-how-solar-energy-works-p2-01.jpg
 author: MrDekk
 tags:   [альтернативная энергетика, солнечная энергия]
 permalink: /blog/alternative_energy/18.html
