@@ -7,9 +7,12 @@ author: MrDekk
 tags:   [альтернативная энергетика, самолет, электричество]
 permalink: /blog/perspective_aviation/23.html
 blogcat: Перспективная авиация
+excerpt_separator: <!--cut-->
 ---
 
 Совершил свой первый полет полностью электрический самолет, который разрабатывается компаниями EADS Innovation Works, Aero Composites Saintonge и ассоциацией Green Cri-Cri. Происходило это в аэропорту Le Bourget недалеко от парижа. 
+
+<!--cut-->
 
 Этот спортивный самолет, оснащенный четырьмя двигателями на полностью электрической тяге, впервый был представлен на Green Aviation Show в аэропорту Le Bourget в июне.
 

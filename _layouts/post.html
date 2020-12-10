@@ -17,7 +17,7 @@ layout: default
 					<span class="post-tags">
 						<i class="fa fa-tags"></i>
 						{% for tag in page.tags %}
-							<a href="{{ site.baseurl }}/tag/{{ tag }}" class="post-tags__tag">{{ tag }}</a>
+							<a href="{{ site.baseurl }}/tag/{{ tag | replace: " ","-" }}" class="post-tags__tag">{{ tag }}</a>
 						{% endfor %}
 					</span>
 					{% endif %}

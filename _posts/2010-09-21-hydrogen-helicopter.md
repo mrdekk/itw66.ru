@@ -7,9 +7,12 @@ author: MrDekk
 tags:   [персональный вертолет, водородное топливо]
 permalink: /blog/perspective_aviation/38.html
 blogcat: Перспективная авиация
+excerpt_separator: <!--cut-->
 ---
 
 Компанией Avimech был разработан небольшой персональный вертолет, топливом для которого является водород.
+
+<!--cut-->
 
 <iframe src="https://www.youtube.com/embed/oOvsD1zNoDI" frameborder="0" allowfullscreen></iframe><br /><br />
 

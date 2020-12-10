@@ -7,9 +7,12 @@ author: MrDekk
 tags:   [космос, луна, LROC]
 permalink: /blog/space/27.html
 blogcat: Космос
+excerpt_separator: <!--cut-->
 ---
 
 Один из мостов примерно 7 метров в ширину в верхнем части, и 9 — в нижней. Если астронавт захочет пройти его полностью с одной стороны до другой, то он пройдет примерно 20 метров.
+
+<!--cut-->
 
 <iframe src="https://www.youtube.com/embed/cg9T9AwUi0s" frameborder="0" allowfullscreen></iframe><br /><br />
 

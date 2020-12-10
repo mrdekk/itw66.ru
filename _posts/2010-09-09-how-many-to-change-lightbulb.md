@@ -7,9 +7,12 @@ author: MrDekk
 tags:   [большая технологическая компания, юмор]
 permalink: /blog/25.html
 blogcat: Блог им. MrDekk
+excerpt_separator: <!--cut-->
 ---
 
 По мотивам вот [этого](http://blogs.msdn.com/b/ericlippert/archive/2003/10/28/53298.aspx).
+
+<!--cut-->
 
 - Один разработчик чтобы за 5 минут реализовать ChangeLightBulbWindowHandleEx
 - Один технический писатель чтобы написать спецификацию
