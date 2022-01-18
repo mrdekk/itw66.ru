@@ -6,7 +6,9 @@
         <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
       </h2>
       {% if post.image and post.image != "" %}
-        <div class="post-image" style="background-image: url('{{ post.image | relative_url }}')"></div>
+        <p>
+          <img src="{{ post.image | relative_url }}" alt="" class="center-image wow fadeIn" data-action="zoom" style="visibility: visible; animation-name: fadeIn;">
+        </p>
       {% endif %}
       <p class="article__excerpt">{% if post.excerpt %}{{ post.excerpt }}<a href="{{ post.url | prepend: site.baseurl }}">Читать дальше...</a>{% else %}{{ post.content | strip_html | truncate: 250 }}{% endif %}</p>
       <div class="article-info">

@@ -45,7 +45,10 @@ layout: default
 			<article class="post wow fadeInUp" data-wow-delay=".2s">
 	
 			{% if page.image and page.image != "" %}
-				<div class="post-image" style="background-image: url('{{ page.image | relative_url }}')"></div>
+				<p>
+          			<img src="{{ page.image | relative_url }}" alt="" class="center-image wow fadeIn" data-action="zoom" style="visibility: visible; animation-name: fadeIn;">
+        		</p>
+
 			{% endif %}
 	
 				<div class="post__content">
