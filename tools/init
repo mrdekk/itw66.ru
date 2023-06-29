@@ -120,7 +120,7 @@ main() {
   echo -e "\n1\n"
   check_env
   echo -e "\n2\n"
-  checkout_latest_release
+  #checkout_latest_release
   echo -e "\n3\n"
   init_files
   echo -e "\n4\n"
