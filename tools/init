@@ -72,9 +72,13 @@ _check_init() {
 }
 
 check_env() {
+  echo -e "\n1.1\n"
   _check_cli
+  echo -e "\n1.2\n"
   _check_status
+  echo -e "\n1.3\n"
   _check_init
+  echo -e "\n1.4\n"
 }
 
 checkout_latest_release() {
@@ -113,10 +117,15 @@ commit() {
 }
 
 main() {
+  echo -e "\n1\n"
   check_env
+  echo -e "\n2\n"
   checkout_latest_release
+  echo -e "\n3\n"
   init_files
+  echo -e "\n4\n"
   commit
+  echo -e "\n5\n"
 }
 
 while (($#)); do
