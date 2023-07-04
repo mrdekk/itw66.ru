@@ -1,0 +1,47 @@
+---
+title: |
+    Smart Bird - птичий полет расшифрован?
+date: 2012-01-09
+authors: [mrdekk]
+tags: [smart bird, festo, птица, бпла]
+categories: [Перспективная авиация]
+permalink: /blog/perspective_aviation/575.html
+blogcat: Перспективная авиация
+excerpt_separator: <!--cut-->
+---
+
+
+![](http://itw66.ru/uploads/images/00/00/01/2012/01/09/1b6b31.jpg)
+
+
+Компания Festo разработала уникальную в своем роде "птичку". Они создали беспилотный летательный аппарат, которые выглядит как птица, летает как птица, и даже крыльями машет. Сразу появляются мысли про орнитоптеры из книг Фрэнка Герберта "Дюна", или же птица-страж из романов Шекли.
+
+
+<!--cut-->
+
+
+#### Легкий аэродинамический дизайн
+
+
+Smart Bird - это сверхлегкая, но тем не менее очень мощная летающая модель с отличными аэродинамическими качествами и экстремальной ловкостью. Работая над Smart Bird, специалистам Festo удалось в некотором роде расшифровать технику полета птиц, которая является старейшей мечтой человечества.
+
+На создание этой модели, специалистов вдохновила обычная серебристая чайка. Дрон может взлетать, совершать полет и садиться полностью автономно. "Птичка" может махать крыльями не только вверх-вниз, но и поворачивать их под определенным углом. Это стало возможным благодаря использованию специального крутильного привода, который в сочетании со сложной системой управления, достигает беспрецедентного уровня эффективности летной эксплуатации. Таким образом, специалистам Festo впервые в мире удалось технически адаптировать эту модель, взятую из природы.
+
+#### Новые подходы в области автоматизации
+
+
+Функциональная интеграция нескольких приводных двигателей привносит несколько важных идей и вдохновений, которые Festo может перенести в разработку и оптимизацию гибридных двигателей. 
+
+Кроме того, минималистское использование материалов и чрезвычайно легкая конструкция может проложить путь к эффективному использованию ресурсов и потреблению энергии.
+
+Ну и напоследок, несколько впечатляющих видео про SmartBird:
+
+Полевые испытания:
+
+<object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/nnR8fDW3Ilo?version=3&amp;hl=ru_RU"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/nnR8fDW3Ilo?version=3&amp;hl=ru_RU" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+
+Анимация:
+
+<object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/9fbmWQ3ExEs?version=3&amp;hl=ru_RU"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/9fbmWQ3ExEs?version=3&amp;hl=ru_RU" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+
+[Источник](http://www.festo.com/cms/en_corp/11369.htm)

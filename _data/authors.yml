@@ -1,17 +1,50 @@
-## Template › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
-# -------------------------------------
-# {author_id}:
-#   name: {full name}
-#   twitter: {twitter_of_author}
-#   url: {homepage_of_author}
-# -------------------------------------
+mrdekk:
+    name: MrDekk
+    email: mrdekk@yandex.ru
+    url: http://mrdekk.ru
 
-cotes:
-  name: Cotes Chung
-  twitter: cotes2020
-  url: https://github.com/cotes2020/
+FiloXSee:
+    name: Deynega Vasiliy
+    email: FiloXSee@yandex.ru
+    url: http://illi-studio.ru
 
-sille_bille:
-  name: Dinesh Prasanth Moluguwan Krishnamoorthy
-  twitter: dinesh_MKD
-  url: https://github.com/SilleBille/
+eXeed:
+    name: eXeed
+    email: mrdekk@gmail.com
+
+Tanat-sun:
+    name: Deynega Tatiana
+    email: Tanat-sun@yandex.ru
+
+sadykh:
+    name: sadykh
+    email: sadykh@illi-studio.ru
+
+Danmer:
+    name: Егор
+    email: danmer@olympus.ru
+    url: http://www.quakelife.ru
+
+layra555:
+    name: layra555
+    email: layra555@mail.ru
+
+dragonmaster:
+    name: DragonMaster
+    email: dragonmaster@illi-studio.ru
+
+antonay07:
+    name: antonay07
+    email: antonay07@mail.ru
+
+Asea:
+    name: Asea
+    email: asea2010@yandex.ru
+
+_ad:
+    name: _ad
+    email: ariadinov@yandex.ru
+
+zubsissypisa:
+    name: zubsissypisa
+    email: zubsissypisani@yahoo.ca

@@ -4,5 +4,4 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+Научно-популярный портал о технологиях настоящего и будущего! Интересы наши простираются в технологии, альтернативную и возобновляемую энергетику, машины, идеи, а также в тайны души и мыслей, философию.

@@ -1,0 +1,27 @@
+---
+title: |
+    Карбоновые нанотрубки могут позволить зданиям двигаться!
+date: 2010-11-22
+authors: [mrdekk]
+tags: [нанотрубки, nanoink, двигающиеся здания]
+categories: [Архитектура будущего]
+permalink: /blog/future_architect/131.html
+blogcat: Архитектура будущего
+excerpt_separator: <!--cut-->
+---
+
+
+![](http://itw66.ru/uploads/images/00/00/01/2010/11/22/89e5a5.png)
+
+
+Компания Decker Yeadon, занимающаяся архитектурными исследованиями, в данный момент изучает свойства углеродных нанотрубок. Задача компании - создать строительный материал, который смог бы двигаться без внешнего воздействия (т.е. самостоятельно). Например, такой материал может быть полезным при создании окон, которые бы открывались и закрывались без вашего участия, допустим, в зависимости от температуры воздуха или других параметров.
+
+
+<!--cut-->
+
+
+<object width="640" height="390"><param name="movie" value="http://www.youtube.com/v/6Mpfxpygs3g&rel=0&hl=en_US&feature=player_embedded&version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/6Mpfxpygs3g&rel=0&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></embed></object>
+
+Секретный "соус", разработанный фирмой Decker Yeadon, называется NanoINK. Он представляет собой соединение углеродных нанотрубок, деионизированной воды и химического соединения, которое позволяет трубкам перемешиваться в воде. Этот материал передает электрические свойства нанотрубок поверхности, на которую нанесен NanoINK, например, бумаге или хлопку. Это означает, что однажды обычная офисная бумага сможет проводить электричество.
+
+Звучит невероятно? Однако, фирма Decker Yeadon уже продемонстрировала возможности NanoINK в лаборатории. Дело за коммерциализацией.

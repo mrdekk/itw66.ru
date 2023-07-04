@@ -2,13 +2,14 @@
 
 - type: github
   icon: "fab fa-github"
+  url: "https://github.com/mrdekk/itw66.ru"
 
-- type: twitter
-  icon: "fab fa-twitter"
+#- type: twitter
+#  icon: "fab fa-twitter"
 
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+#- type: email
+#  icon: "fas fa-envelope"
+#  noblank: true # open link in current tab
 
 - type: rss
   icon: "fas fa-rss"

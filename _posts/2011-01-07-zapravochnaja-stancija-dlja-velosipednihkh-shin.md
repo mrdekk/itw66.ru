@@ -1,0 +1,48 @@
+---
+title: |
+    Заправочная станция для велосипедных шин!
+date: 2011-01-07
+authors: [mrdekk]
+tags: [airstation, велосипед, заправочная станция, давление]
+categories: [Интересные штуковины]
+permalink: /blog/interesting_things/230.html
+blogcat: Интересные штуковины
+excerpt_separator: <!--cut-->
+---
+
+
+![](http://itw66.ru/uploads/images/00/00/01/2011/01/07/907659.jpg)
+
+
+У нас конечно нет такой организованной системы для велосипедистов, но вот в таких городах как Амстердам или Пекин, где очень много людей ездят на велосипедах это изобретение может быть очень полезно. На тротуарах с определенными интервалом располагаются специальные компрессорные станции (также как и автомобильные заправки), на которых можно подкачать колеса своего велосипеда. Все что требуется - вставить в специальное углубление педаль велосипеда и накачать колесо! Замечательно!
+
+P.S. Творение получило название AirStation!
+
+
+<!--cut-->
+
+
+
+![](http://itw66.ru/uploads/images/00/00/01/2011/01/07/48214a.jpg)
+
+
+![](http://itw66.ru/uploads/images/00/00/01/2011/01/07/b74bf4.jpg)
+
+
+![](http://itw66.ru/uploads/images/00/00/01/2011/01/07/291e61.jpg)
+
+
+![](http://itw66.ru/uploads/images/00/00/01/2011/01/07/e3da1d.jpg)
+
+
+<object width="640" height="390"><param name="movie" value="http://www.youtube.com/v/NPLQoTOHVf0&hl=en_US&feature=player_embedded&version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/NPLQoTOHVf0&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></embed></object>
+
+### Комментарии
+
+> **dragonmaster, 7 янв. 2011, 14:07**
+> Да для Пекина и Амстердама творение возможно полезное. Однако нам сначала надо научится ездить на велосипедах.<br/>
+<br/>
+Да и в -30 на велосипеде особо не поездишь :(
+
+>> **sadykh, 7 янв. 2011, 14:14**
+>> тоже считаю, что несколько утопично, повыковыривают их у нас :/

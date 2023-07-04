@@ -1,0 +1,31 @@
+---
+title: |
+    Nissan представил ультракомпактный электромобиль
+date: 2010-12-03
+authors: [mrdekk]
+tags: [nissan, электромобиль, концепт, компактный]
+categories: [Автомобили и технологии]
+permalink: /blog/automotive/164.html
+blogcat: Автомобили и технологии
+excerpt_separator: <!--cut-->
+---
+
+
+![](http://itw66.ru/uploads/images/00/00/01/2010/12/03/d3ec40.jpg)
+
+
+Несмотря на уже представленный электромобиль Leaf EV, автоконцерн Nissan имеет еще один электрический автомобиль, находящийся на фазе концепта. Это небольшой, размера машины для гольфа, автомобиль, который согласно заявлениям представителей Nissan будет простой, инновационный, безопасный и экологически чистый.
+
+
+<!--cut-->
+
+
+
+![](http://itw66.ru/uploads/images/00/00/01/2010/12/03/47597b.jpg)
+
+
+Задача этого автомобиля удовлетворить нужды отдельных домовладельцев и пожилых людей. Предполагается, что поездки будут совершаться на короткие дистанции. Nissan видит этот автомобиль как "частный автомобиль для поездок по утрам и вечерам, и как автомобиль для корпоративных нужд". В один прекрасный день этот автомобиль может быть использован в такси.
+
+Концепт был представлен в Японии в ноябре, однако пока нет никаких данных поступит ли он в серийное производство. В то же время, отрадно видеть, что Nissan разрабатывает электромобили для разных сегментов рынка. Чтож, так держать.
+
+<object width="640" height="390"><param name="movie" value="http://www.youtube.com/v/TWUGSRFnf-8&hl=en_US&feature=player_embedded&version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/TWUGSRFnf-8&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></embed></object>
