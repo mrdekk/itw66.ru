@@ -55,10 +55,11 @@
         @extend %muted;
 
         p {
-          @extend %text-clip;
+          /* @extend %text-clip; */
+          @extend %paragraph-firstline;
 
           line-height: 1.5;
-          margin: 0;
+          margin: 0 0 0.2em 0;
         }
       }
 

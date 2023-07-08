@@ -59,16 +59,20 @@ refactor: true
           <img src="{{ src }}" w="17" h="10" alt="{{ alt }}" {{ lqip }}>
         {% endif %}
 
-        <div class="card-body d-flex flex-column">
+        <div class="card-body"> <!--  d-flex flex-column -->
           <h1 class="card-title my-2 mt-md-0">
             {{ post.title }}
           </h1>
 
           <div class="card-text post-content mt-0 mb-2">
-            <p>
-              {% include no-linenos.html content=post.content %}
-              {{ content | markdownify | strip_html | truncate: 200 | escape }}
-            </p>
+            {% if post.excerpt %}
+              {{ post.excerpt }}
+            {% else %}
+              <p>
+                {% include no-linenos.html content=post.content %}
+                {{ content | markdownify | strip_html | truncate: 200 | escape }}
+              </p>
+            {% endif %}
           </div>
 
           <div class="post-meta flex-grow-1 d-flex align-items-end">
