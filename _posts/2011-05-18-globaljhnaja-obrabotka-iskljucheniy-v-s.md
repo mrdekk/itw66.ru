@@ -21,7 +21,7 @@ excerpt_separator: <!--cut-->
 
 Чтобы добавить свой глобальный обработчик исключений, нужно подписаться на данные события:
 
-```
+```csharp
 AppDomain.CurrentDomain.UnhandledException += delegate( object sender, UnhandledExceptionEventArgs args )
 {
     Trace.WriteLine( "Global exception: " + args.ExceptionObject.ToString( ) );

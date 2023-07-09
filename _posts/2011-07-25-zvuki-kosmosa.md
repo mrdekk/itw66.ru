@@ -24,16 +24,16 @@ excerpt_separator: <!--cut-->
 
 **"Песнь планеты Земля": (Mother Earth Song)**
 
-<object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/t67sBToyN-8?version=3" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><embed src="http://www.youtube.com/v/t67sBToyN-8?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390" /></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t67sBToyN-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 **"Песнь планеты Сатурн": (Song of Saturn)**
 
-<object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/9x3-pg9zjJc?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/9x3-pg9zjJc?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9x3-pg9zjJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 **"Песнь планеты Титан": (Song of a planet the Titan)**
 
-<object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/B46GRlYEiPI?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/B46GRlYEiPI?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B46GRlYEiPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 **"Шум орбиты Земли": (Noise of an orbit of the Earth - "a noise ring" )**
 
-<object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/UraoyKRFfu0?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/UraoyKRFfu0?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UraoyKRFfu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

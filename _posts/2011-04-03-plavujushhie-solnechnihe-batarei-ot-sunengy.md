@@ -22,7 +22,8 @@ excerpt_separator: <!--cut-->
 
 Из-за отсутствия необходимости сооружения для LSA устойчивых к штормам креплений и расходов на приобретение земли под их установку, стоимость таких солнечных батарей в эксплуатации существенно ниже.
 
-<object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/Q2WfkLplCCU?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/Q2WfkLplCCU?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></object>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q2WfkLplCCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 К сожалению, плавающие платформы с батареями LSA не пригодны для размещения в океане, так как большие волны разнесут их в щепки. Однако конструкция вполне способна выдержать сильные ветра и небольшую непогоду благодаря специальному механизму, который в неблагоприятные моменты прячет солнечные элементы под воду и защищает их от повреждения.
 

@@ -53,4 +53,4 @@ Curiosity (Любопытство) или Mars Science Laboratory - марсох
 
 Ну а пока он движется к Марсу, можно посмотреть ролик про то, как будут проходить стадии прилета, приземления и посадки:
 
-<object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/P4boyXQuUIw?version=3&amp;hl=ru_RU"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/P4boyXQuUIw?version=3&amp;hl=ru_RU" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P4boyXQuUIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

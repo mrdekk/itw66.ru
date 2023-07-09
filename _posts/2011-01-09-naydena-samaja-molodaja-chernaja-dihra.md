@@ -15,11 +15,12 @@ excerpt_separator: <!--cut-->
 
 _Снимок галактики M100 в рентгеновских лучах в 2005 году. Тогда ученые наблюдали за сверхновой SN 1979C._
 
-В ноября 2010 года ученые из NASA [сообщили ](http://www.nasa.gov/mission_pages/chandra/news/H-10-299.html) об обнаружении самой молодой черной дыры. Она появилась в результате естественных процессов на месте сверхновой, которая вспыхнула около 31 года назад.
+В ноября 2010 года ученые из NASA сообщили об обнаружении самой молодой черной дыры. Она появилась в результате естественных процессов на месте сверхновой, которая вспыхнула около 31 года назад.
 
 
 <!--cut-->
 
+В ноября 2010 года ученые из NASA [сообщили ...](http://www.nasa.gov/mission_pages/chandra/news/H-10-299.html)
 
 Взрыв сверхновой породила звезда массой порядка 20 солнечных в результате естественных процессов жизни звезд. Тогда ученые еще не догадывались, что в скором времени поблизости от нашей галактики родится самая молодая черная дыра, и мало того, что они смогут наблюдать это событие.
 
@@ -36,4 +37,4 @@ _Изображение галактики M100 полученное из нес
 
 Хотя есть и другой вариант. Возможно это нейтронная звезда или пульсар, создающие потоки частиц и соответственно подсвечивающие окружающих газ и пыль. Но точно утверждать пока еще рано.
 
-<object width="640" height="390"><param name="movie" value="http://www.youtube.com/v/8YzHObZ2qb4&hl=en_US&feature=player_embedded&version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/8YzHObZ2qb4&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></embed></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8YzHObZ2qb4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

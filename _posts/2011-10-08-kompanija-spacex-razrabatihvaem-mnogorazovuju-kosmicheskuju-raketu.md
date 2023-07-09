@@ -48,7 +48,8 @@ excerpt_separator: <!--cut-->
 
 Напоследок небольшое видео:
 
-<object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/p176UpWQOs4?version=3&amp;hl=ru_RU"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/p176UpWQOs4?version=3&amp;hl=ru_RU" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<iframe width="560" height="315" src="http://www.youtube.com/v/p176UpWQOs4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 И еще немного картинок:
 

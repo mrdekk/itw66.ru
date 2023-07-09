@@ -85,12 +85,6 @@ excerpt_separator: <!--cut-->
 - **Электрическое оборудование** - передает электроэнергию с генератора в гондоле вниз башни и управляет многими функциями безопасной работы
 
 
-
-С начала до конца, процесс генерации электричества с помощью энергии ветра выглядит примерно следующим образом (ролик на английском языке):
-
-<object height="473" width="400" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">    <param value="http://itw66.ru/files/wind-power.swf" name="movie">    <param value="high" name="quality">    <embed height="473" width="400" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_  Version=ShockwaveFlash" quality="high" src="http://itw66.ru/files/wind-power.swf" id="s_media_1_0" name="s_media_1_0">        </object>
-
-
 ![](http://itw66.ru/uploads/images/00/00/01/2012/10/19/25382b.gif)
 
 

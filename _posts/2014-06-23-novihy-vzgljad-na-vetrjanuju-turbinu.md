@@ -32,6 +32,6 @@ excerpt_separator: <!--cut-->
 
 Несколько роликов (англ.):
 
-<object width="420" height="315"><param name="movie" value="//www.youtube.com/v/rMMlmqohOJs?hl=ru_RU&amp;version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/rMMlmqohOJs?hl=ru_RU&amp;version=3" type="application/x-shockwave-flash" width="420" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rMMlmqohOJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<object width="420" height="315"><param name="movie" value="//www.youtube.com/v/gGMXl-cc5UM?version=3&amp;hl=ru_RU"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/gGMXl-cc5UM?version=3&amp;hl=ru_RU" type="application/x-shockwave-flash" width="420" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gGMXl-cc5UM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -16,4 +16,4 @@ excerpt_separator: <!--cut-->
 
 Хотя нет, о чем это мы. Плакать умеет каждый из нас. А вот как быть, если вы условиях невесомости, а плакать хочется ну очень сильно? Правильно, Крис Хэдфилд (Chris Hadfield) поделится своим опытом просмотра мыльных опер и чтения грустных книг.
 
-<center><iframe width="560" height="315" src="http://www.youtube.com/embed/P36xhtpw0Lg" frameborder="0" allowfullscreen></iframe></center>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/P36xhtpw0Lg" frameborder="0" allowfullscreen></iframe>

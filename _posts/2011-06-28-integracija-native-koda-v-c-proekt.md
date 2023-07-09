@@ -64,7 +64,7 @@ excerpt_separator: <!--cut-->
 Класс написанный на Managed C++ может напрямую использовать С++ код. Экземпляр управляемого класса может содержать указатель на не управляемый класс.
 
 
-```
+```cpp
 // C++
 public class Foo
 {
@@ -92,7 +92,9 @@ public:
 private:
       Foo*     m_class;
 }
+```
 
+```csharp
 // C#
 FooWrapper foo = new FooWrapper();
 foo.Do();
@@ -107,7 +109,7 @@ foo.Shutdown();
 Например если это библиотека, которая проводит какие то расчеты и выдает результат, то все это можно оформить в статическую функцию класса.
 
 
-```
+```cpp
 // Managed C++
 public ref FooWrapper
 {
@@ -119,7 +121,9 @@ public:
            delete( m_class );
       }
 }
+```
 
+```csharp
 // C#
 FooWrapper.Do();
 ```

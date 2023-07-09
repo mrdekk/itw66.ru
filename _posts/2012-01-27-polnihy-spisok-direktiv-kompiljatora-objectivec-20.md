@@ -14,8 +14,6 @@ excerpt_separator: <!--cut-->
 
 Вот их полный список, разъяснения приводятся под катом:
 
-
-
 - @class
 - @protocol @required @optional @end
 - @interface @public @package @protected @private @property @end
@@ -38,7 +36,7 @@ excerpt_separator: <!--cut-->
 Используется для предварительного объявления класса. При использовании этой директивы класс помечается как известный, даже без загрузки заголовочного файла. 
 
 
-```
+```objc
 @class ClassName
 ```
 
@@ -46,17 +44,17 @@ excerpt_separator: <!--cut-->
 Однако, в отличии от @protocol и @selector вы **не можете** написать следующее для получения класса по имени
 
 
-```
+```objc
 // ОШИБКА: это работать не будет!
-Class c = @class( ClassName );
+Class c = @class(ClassName);
 ```
 
 
 используйте вместо этого
 
 
-```
-Class c = [ ClassName class ];
+```objc
+Class c = [ClassName class];
 ```
 
 
@@ -66,8 +64,8 @@ Class c = [ ClassName class ];
 Директивы используются для объявления протокола. Кроме того, протокол может адаптировать другие протоколы.
 
 
-```
-@protocol ProtocolName < aProtocol, anotherProtocol >
+```objc
+@protocol ProtocolName<aProtocol, anotherProtocol>
 @required
   // объявление сообщений
 @optional
@@ -79,10 +77,10 @@ Class c = [ ClassName class ];
 Также как и в случае с @selector вы можете использовать @protocol для получения объекта по имени:
 
 
-```
--( void ) aMethod
+```objc
+-(void)aMethod
 {
-  Protocol* aProtocol = @protocol( ProtocolName );
+    Protocol* aProtocol = @protocol(ProtocolName);
 }
 ```
 
@@ -95,8 +93,8 @@ Class c = [ ClassName class ];
 - **@optional** - Определяет методы, которые следуют после @optional как необязательные. Классы, которые адаптируют протокол, могут сами решать - реализовывать эти методы или нет. Классы, которые используют необязательные методы протокола, должны делать проверку на существование. Например:
 
 
-```
-[ object respondsToSelector: @selector( optionalProtocolMethod ) ];
+```objc
+[object respondsToSelector: @selector(optionalProtocolMethod)];
 ```
 
 - **@end** - определяет завершение объявления протокола
@@ -113,8 +111,8 @@ Class c = [ ClassName class ];
 Класс предок может не объявляться, однако, все классы Objective-C должны напрямую или косвенно наследоваться от NSObject. Директива @interface может определять также, что класс адаптирует определенные протоколы:
 
 
-```
-@interface ClassName : SuperClassName < aProtocol, anotherProtocol >
+```objc
+@interface ClassName : SuperClassName<aProtocol, anotherProtocol>
 {
 @public
   // переменные экземпляра
@@ -127,7 +125,7 @@ Class c = [ ClassName class ];
 }
 
 // объявление свойств
-@property ( atomic, readwrite, assign ) id aProperty;
+@property(atomic, readwrite, assign) id aProperty;
 
 // публичные методы класса и экземпляров
 @end
@@ -139,11 +137,11 @@ Class c = [ ClassName class ];
 Директива @interface для категорий не может добавлять переменных экземпляра. Однако, она может определять, что категория адаптирует дополнительные протоколы. Имя категории может быть опущено (остаются только круглые скобки), если категория добавляется в файл реализации для добавления частных методов класса.
 
 
-```
-@interface ClassName ( CategoryName ) < aProtocol, anotherProtocol >
+```objc
+@interface ClassName(CategoryName)<aProtocol, anotherProtocol>
 
 // объявление свойств
-@property ( nonatomic, retain ) NSString* stringProperty;
+@property(nonatomic, retain) NSString* stringProperty;
 
 // объявление методов
 @end
@@ -156,7 +154,7 @@ Class c = [ ClassName class ];
 
 - **@public** - Определяет, что переменные экземпляра, следующие за директивой будут доступны публично. Публичные переменные могут быть прочтены и изменены с помощью следующей конструкции:
 
-```
+```objc
 someObject->aPublicVariable = 10;
 ```
 
@@ -184,11 +182,11 @@ someObject->aPublicVariable = 10;
 **Определение класса**
 
 
-```
+```objc
 @implementation ClassName
 
 @synthesize aProperty, bProperty;
-@synthesize cProperty=instanceVariableName;
+@synthesize cProperty = instanceVariableName;
 
 @dynamic anotherProperty;
 
@@ -200,11 +198,11 @@ someObject->aPublicVariable = 10;
 **Определение категории**
 
 
-```
+```objc
 @implementation ClassName ( CategoryName )
 
 @synthesize aProperty, bProperty;
-@synthesize cProperty=instanceVariableName;
+@synthesize cProperty = instanceVariableName;
 
 @dynamic anotherProperty, bnotherProperty;
 
@@ -231,31 +229,30 @@ someObject->aPublicVariable = 10;
 **Посылка и обработка исключений**
 
 
-```
+```objc
 @try
 {
-  // код, который может кинуть исключение ... как например
-  NSException* exception = 
-    [ NSException exceptionWithName: @"ExampleException"
-                             reason: @"In your face!"
-                           userInfo: nil ];
-  @throw exception;
+    // код, который может кинуть исключение ... как например
+    NSException* exception = [NSException exceptionWithName: @"ExampleException"
+                                                     reason: @"In your face!"
+                                                   userInfo: nil];
+    @throw exception;
 }
-@catch ( CustomException* ce )
+@catch (CustomException* ce)
 {
-  // код обработки определенного исключения
+    // код обработки определенного исключения
 }
-@catch ( NSException* ne )
+@catch (NSException* ne)
 {
-  // код обработки всех остальных исключений
+    // код обработки всех остальных исключений
 
-  // чтобы просто пробросить исключение дальше
-  @throw ;
+    // чтобы просто пробросить исключение дальше
+    @throw;
 }
 @finally
 {
-  // код, который выполнится всегда после обработки, несмотря на то
-  // было исключение или нет
+    // код, который выполнится всегда после обработки, несмотря на то
+    // было исключение или нет
 }
 ```
 
@@ -266,13 +263,13 @@ someObject->aPublicVariable = 10;
 Заключает блок кода в мьютекс. Обеспечивает гарантию того, что блок кода и объект блокировки будут доступны только из одного потока в момент времени. 
 
 
-```
--( void ) aMethodWithObject: ( id )object
+```objc
+-(void)aMethodWithObject:(id)object
 {
-  @synchronized( object )
-  {
-    // код, который работает с объектом блокировки
-  }
+    @synchronized(object)
+    {
+        // код, который работает с объектом блокировки
+    }
 }
 ```
 
@@ -287,13 +284,13 @@ someObject->aPublicVariable = 10;
 Пример использования:
 
 
-```
--( void ) aMethod
+```objc
+-(void)aMethod
 {
-  @autoreleasepool
-  {
-    // код, который создает большое количество временных объектов
-  }
+    @autoreleasepool
+    {
+        // код, который создает большое количество временных объектов
+    }
 }
 ```
 
@@ -304,11 +301,11 @@ someObject->aPublicVariable = 10;
 Возвращает специальный тип селекторов SEL выбранного метода Objective-C. Генерирует предупреждение компилятора, если метода не объявлен или не существует.
 
 
-```
--( void ) aMethod
+```objc
+-(void)aMethod
 {
-  SEL aMethodSelector = @selector( aMethod );
-  [ self performSelector: aMethodSelector ];
+    SEL aMethodSelector = @selector(aMethod);
+    [self performSelector: aMethodSelector];
 }
 ```
 
@@ -319,16 +316,16 @@ someObject->aPublicVariable = 10;
 Возвращает [кодировку типа](http://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtTypeEncodings.html).
 
 
-```
--( void ) aMethod
+```objc
+-(void)aMethod
 {
-  char* enc1 = @encode( int );                   // enc1 = "i"
-  char* enc2 = @encode( id );                    // enc2 = "@"
-  char* enc3 = @encode( @selector( aMethod ) );  // enc3 = ":"
+    char* enc1 = @encode(int);                   // enc1 = "i"
+    char* enc2 = @encode(id);                    // enc2 = "@"
+    char* enc3 = @encode(@selector(aMethod));    // enc3 = ":"
 
-  // практический пример
-  CGRect rect = CGRectMake( 0, 0, 100, 100 );
-  NSValue* v = [ NSValue value: &rect withObjCType: @encode( CGRect ) ];
+    // практический пример
+    CGRect rect = CGRectMake(0, 0, 100, 100);
+    NSValue* v = [NSValue value: &rect withObjCType: @encode(CGRect)];
 }
 ```
 
@@ -339,7 +336,7 @@ someObject->aPublicVariable = 10;
 Позволяет вам задать псевдоним для существующего класса. Первый параметр - имя псевдонима для имени класса, класса с таким именем не должно существовать. Второй параметр - имя существующего класса, для которого создается псевдоним.
 
 
-```
+```objc
 @compatibility_alias AliasClassName ExistingClassName
 ```
 
@@ -352,11 +349,11 @@ someObject->aPublicVariable = 10;
 Объявляет константный объект класса NSString. Для таких строк не требуется вызывать retain или release.
 
 
-```
--( void ) aMethod
+```objc
+-(void)aMethod
 {
-  NSString* str = @"This is a constant string.";
-  NSUInteger strLength = [ @"This is legal!" length ];
+    NSString* str = @"This is a constant string.";
+    NSUInteger strLength = [@"This is legal!" length];
 }
 ```
 
@@ -366,6 +363,4 @@ someObject->aPublicVariable = 10;
 
 Я надеюсь, что вам понравился этот список, и он будет полезен вам. Если есть какие-то директивы, которых нет в списке, пожалуйста опишите их в комментариях к статье. Буду очень благодарен.
 
-По мотивам [тут](http://www.learn-cocos2d.com/2011/10/complete-list-objectivec-20-compiler-directives/?%2BMaster%2Bcocos2d%2Bfor%2BiPhone%2BGame%2BDevelopment)=#encode).
-
-<iframe src="http://filoxsee.illi-studio.ru/itworks_newsletter_very_small.html" width="400" height="200"></iframe>
+По мотивам [тут](http://www.learn-cocos2d.com/2011/10/complete-list-objectivec-20-compiler-directives/?%2BMaster%2Bcocos2d%2Bfor%2BiPhone%2BGame%2BDevelopment=#encode).

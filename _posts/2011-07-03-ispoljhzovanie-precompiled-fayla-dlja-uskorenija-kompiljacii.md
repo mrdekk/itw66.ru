@@ -20,7 +20,7 @@ excerpt_separator: <!--cut-->
 Давайте настроим проект в Visual Studio таким образом, чтобы использовать Precompiled файл. Для начала нужно создать два файла
 
 
-```
+```cpp
 // создаем два файла
 Precompiled.h
 Precompiled.cpp
@@ -38,7 +38,7 @@ Precompiled.cpp
 
 Поскольку Precompiled файл базовый, он должен быть включен во все .cpp файлы кода первым. Т.е. первой должна быть строчка
 
-```
+```cpp
 #include "Precompiled.h".
 ```
 

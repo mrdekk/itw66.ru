@@ -14,6 +14,8 @@ excerpt_separator: <!--cut-->
 ![](http://itw66.ru/uploads/images/00/00/01/2012/05/26/0958a0.jpg)
 
 
+<!--cut-->
+
 Стоит порадоваться за наших! Наконец-то, хотя что-то дельное получилось. Принадлежащий [Научному Центру Оперативного Мониторинга Земли](http://www.ntsomz.ru/electro) спутник "Электро-Л", делает впечатляющие гигапиксельные панорамы Земли. Один из примеров приведен в начале статьи, вот еще видеоролик, сделанный по материалам этих панорам (звезд и городов ночью нет специально):
 
-<object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/FGEm30fdRoo?version=3&amp;hl=ru_RU"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/FGEm30fdRoo?version=3&amp;hl=ru_RU" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FGEm30fdRoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

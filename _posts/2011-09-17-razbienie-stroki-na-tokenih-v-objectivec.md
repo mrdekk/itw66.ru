@@ -14,17 +14,18 @@ excerpt_separator: <!--cut-->
 
 Разбиение строки на слова:
 
-```
+```objc
 NSString* sourceString = @"Some string";
 NSArray* words = [ sourceString componentsSeparatedByString: @" " ];
 // теперь words содержит: [ @"Some", @"string" ]
 ```
 
+<!--cut-->
 
 
 Разбиение строки по нескольким символам:
 
-```
+```objc
 NSString* sourceString = @"Game-info/title";
 NSArray* words = [ sourceString componentsSeparatedByCharactersInSet:
                       [ NSCharacterSet characterSetWithCharactersInString: @"-/" ]
@@ -36,7 +37,7 @@ NSArray* words = [ sourceString componentsSeparatedByCharactersInSet:
 
 Если вам нужно разбить строку на символы, то это можно сделать пробежав в цикле по символам строки и создав по строке на каждый символ:
 
-```
+```objc
 int length = [sourceString length];
 NSMutableArray* chars = [[NSMutableArray alloc] initWithCapacity: length ];
 for( int i = 0; i < length; ++i )

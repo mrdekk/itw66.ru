@@ -20,13 +20,13 @@ excerpt_separator: <!--cut-->
 
 1. Использование директивы using (как аналог typedef в С++) для создания нового типа:
 
-```
+```csharp
 using Sequence = System.Collections.Generic.List<Graphics.ImageRect>;
 ```
 
 2. Использования наследования для спецификации шаблона:
 
-```
+```csharp
 public class Pair< T, U >{...}
 public class PairI : Pair< Int32, Int32 >
 {
@@ -36,18 +36,23 @@ public class PairI : Pair< Int32, Int32 >
 
 3. Использование параметра **var** как типа переменной. Переменная объявленная так определит свой тип не явно, на этапе компиляции из анализа кода. Не стоит злоупотреблять этим параметром, т.к. это может сильно ухудшить читабельность кода. Однако он очень хорошо подходит для использования для определения переменной цикла:
 
-```
+```csharp
 var v1 = someClass;
 ```
 
 4. При получение элемента из **Dictionary** нужно пользоваться функцией **TryGetValue**, а не **ContainsKey**. Это во-первый почти в два раза быстрее, во вторых не потребуется дальнейшее извлечение элемента:
 
-```
 Нужно писать:
+
+```csharp
 Image img = null;
 if( images.TryGetValue( name, out img ) )
     return img;
+```
+
 Вместо:
+
+```csharp
 if( images.ContainsKey( name ) )
     return images[ name ];
 ```
@@ -57,7 +62,7 @@ if( images.ContainsKey( name ) )
 
 Часто можно создать массивы при помощи списка инициализации, вместо цикла.
 
-```
+```csharp
 LogType[ ] logTypes = { LogType.Fatal, LogType.Error, LogType.Warning };
 Int32[ , ] arr = new Int32[ 2, 3 ] { {1,2,3}, {4,5,6} };
 ```
@@ -65,12 +70,13 @@ Int32[ , ] arr = new Int32[ 2, 3 ] { {1,2,3}, {4,5,6} };
 
 Так же можно компактно инициализировать структуры:
 
-```
+```csharp
 struct Desc
 {
     public String    name;
     public Int32    val;
 }
+
 Desc[] arr = new Desc[]
 {
     new Desc(){ name = "name1", val = 1 },
@@ -83,7 +89,7 @@ Desc[] arr = new Desc[]
 
 Перед написанием цикла проверьте, есть ли системные реализации подобного цикла. Это относится к циклам поиска элемента или выполнения некоторой функциональности.
 
-```
+```csharp
 list.ForEach( item => item.DoSomething() ); // у всех элементов вызвать функцию DoSomething
 SomeClass item = list.Find( item => item.Name == name ); // поиск элемента по имени
 List<SomeClass> items = list.FindAll( item => item.Value > 10 ); // поиск всех элементов, удовлетворяющих условию
@@ -93,12 +99,19 @@ bool res = list.TrueForAll( item => item.IsValid ); // проверка колл
 
 Использование модификатора var обычно может сильно ухудшить читаемость кода. Однако, при итерировании некой коллекции со сложным типом объектов использование этого модификатора может сильно сократить объем кода.
 
-```
+```csharp
 Dictionary< String, SomeClass > dict ...;
+```
 
 Лучше писать:
+
+```csharp
 foreach( var pair in dict )
+```
+
 Вместо:
+
+```csharp
 foreach( KeyValuePair< String, SomeClass > pair in dict )
 ```
 
@@ -107,21 +120,31 @@ foreach( KeyValuePair< String, SomeClass > pair in dict )
 
 При работе со строками:
 
-```
 Нужно писать:
+
+```csharp
 if( String.IsNullOrEmpty( name ) )
+```
+
 Вместо:
+
+```csharp
 if( null == name || name.Length == 0 )
 ```
 
 
 Если нужно проверить объект на принадлежность определенному типу, а затем работать с ним, то лучше использовать конструкцию **as** вместо **as+is** и тем более не использовать явного преобразования к типу.
 
-```
 Это в два раза быстрее:
+
+```csharp
 SomeClass sc = obj as SomeClass;
 if( null != sc ){ /* do something */ }
+```
+
 чем это:
+
+```csharp
 if( obj is SomeClass )
 {
     SomeClass sc = obj as SomeClass;
@@ -134,7 +157,7 @@ if( obj is SomeClass )
 
 Вот несколько вариантов передачи делегата некоторому классу. Эти варианты делают одно и тоже и следует выбирать наиболее подходящий для каждой конкретной ситуации:
 
-```
+```csharp
 // 1 вариант: реализовать функцию и передать ее в класс делегатом
 void ActionFunc()
 {
@@ -159,7 +182,7 @@ obj.RegisterCallback( () => { /*do something*/} );
 В C# нет деструктора, как в С++. Однако есть функция **Dispose()** интерфейса _IDisposable_, которую можно воспользоваться для упрощения кода. Допустим нам нужно обрамить некоторый код вызовами функций _Start_ и _Stop_, которые что-либо делают. Например эти функции считают время, прошедшее между вызовами для профелирования кода. Выглядит это так:
 
 
-```
+```csharp
 void DoSomething()
 {
     Start();
@@ -178,7 +201,7 @@ void DoSomething()
 Конечно можно в каждом месте писать эти функции, однако следить за этим становится довольно проблематично. Особенно если учесть, что в коде могут быть операции return, при которых нужно так же вызвать функцию Stop. Для решения этой задачи мы создадим вспомогательный класс и код станет выглядеть так:
 
 
-```
+```csharp
 void DoSomething()
 {
     using( new Starter() )

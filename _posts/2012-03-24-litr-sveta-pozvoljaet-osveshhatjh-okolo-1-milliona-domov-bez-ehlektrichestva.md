@@ -26,7 +26,7 @@ excerpt_separator: <!--cut-->
 
 Однако на одном только изобретении дело не окончилось. Некто Илак Диаз (Ilac Diaz) основывает организацию MyShelter Foundation, которая провозглашает своей миссией обеспечение малоимущих жителей Манилы подобными "лампочками". К нему присоединяются участницы конкурса Мисс Филиппины. И начинают нести истину в массы. Вот ролик, только он правда на английском языке:
 
-<object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/6zqf-a0i0-4?version=3&amp;hl=ru_RU"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/6zqf-a0i0-4?version=3&amp;hl=ru_RU" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6zqf-a0i0-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Местным жителям идея понравилась и они живо принялись повторять идею для своих домов, кое где даже усовершенствовали ее.
 
@@ -36,6 +36,6 @@ excerpt_separator: <!--cut-->
 
 И вот что получилось, ролик правда опять на английском:
 
-<object width="420" height="315"><param name="movie" value="http://www.youtube.com/v/o-Fpsw_yYPg?version=3&amp;hl=ru_RU"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/o-Fpsw_yYPg?version=3&amp;hl=ru_RU" type="application/x-shockwave-flash" width="420" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o-Fpsw_yYPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 И все это сделано только с использованием пластиковой бутылки и отбеливателя (который некоторые жители успешно заменили содовой водой). Кстати, у MyShelter Foundation есть свой [инструкция по сборке](http://isanglitrongliwanag.org/wp/wp-content/docs/How-to-build-a-SOLAR-BOTTLE-BULB.zip) такой "лампочки".

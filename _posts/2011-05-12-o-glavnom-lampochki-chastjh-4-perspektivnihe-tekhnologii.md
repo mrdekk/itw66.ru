@@ -16,13 +16,15 @@ excerpt_separator: <!--cut-->
 
 Сегодня завершающая статья про лампочки. В ней мы рассмотрим перспективные технологии освешения.
 
-[Часть 1: Термины](http://itw66.ru/blog/technologies/458.html)
-[Часть 2: Наиболее часто используемые типы](http://itw66.ru/blog/technologies/461.html)
-[Часть 3: Люминесцентные и Светодиодные](http://itw66.ru/blog/technologies/463.html)
-[Часть 4: Перспективные технологии](http://itw66.ru/blog/technologies/466.html)
-
-
 <!--cut-->
+
+
+- [Часть 1: Термины](http://itw66.ru/blog/technologies/458.html)
+- [Часть 2: Наиболее часто используемые типы](http://itw66.ru/blog/technologies/461.html)
+- [Часть 3: Люминесцентные и Светодиодные](http://itw66.ru/blog/technologies/463.html)
+- [Часть 4: Перспективные технологии](http://itw66.ru/blog/technologies/466.html)
+
+
 
 
 #### Органические светодиодные лампочки

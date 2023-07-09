@@ -13,15 +13,16 @@ excerpt_separator: <!--cut-->
 
 ![](http://itw66.ru/uploads/images/00/00/01/2011/05/07/3eb502.jpg)
 
-
 Продолжаем серию статей о лампочках:
-[Часть 1. Термины](http://itw66.ru/blog/technologies/458.html)
-[Часть 2: Наиболее часто используемые типы](http://itw66.ru/blog/technologies/461.html)
-[Часть 3: Люминесцентные и Светодиодные](http://itw66.ru/blog/technologies/463.html)
-[Часть 4: Перспективные технологии](http://itw66.ru/blog/technologies/466.html)
-
 
 <!--cut-->
+
+
+- [Часть 1. Термины](http://itw66.ru/blog/technologies/458.html)
+- [Часть 2: Наиболее часто используемые типы](http://itw66.ru/blog/technologies/461.html)
+- [Часть 3: Люминесцентные и Светодиодные](http://itw66.ru/blog/technologies/463.html)
+- [Часть 4: Перспективные технологии](http://itw66.ru/blog/technologies/466.html)
+
 
 
 #### Лампа накаливая. Уходящий стандарт

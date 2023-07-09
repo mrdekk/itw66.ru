@@ -12,10 +12,12 @@ excerpt_separator: <!--cut-->
 
 Иногда при создание Windows Forms приложения требуется скрывать окно, когда пользователь его закрывает. Действие по умолчанию - это закрытие окна. При этом высвобождаются все ресурсы и доступ к данном окну после его закрытия приведет к ошибке.
 
+<!--cut-->
+
 Для того чтобы скрывать окно без его уничтожения нужно подписаться на событие **FormClosing** и написать там следующее:
 
 
-```
+```csharp
 private void MainWindow_FormClosing(object sender, FormClosingEventArgs e)
 {
     Hide();
@@ -30,11 +32,14 @@ private void MainWindow_FormClosing(object sender, FormClosingEventArgs e)
 
 ### Комментарии
 
-> **mrdekk, 14 сент. 2011, 01:31**
-> Есть еще один способ — установить свойство HideOnClose в true и эффект будет примерно таким же. В чем разница?
+>**mrdekk, 14 сент. 2011, 01:31**
+>
+>Есть еще один способ — установить свойство HideOnClose в true и эффект будет примерно таким же. В чем разница?
 
->> **FiloXSee, 15 сент. 2011, 11:32**
->> Разница в том, что свойства HideOnClose нет в System.Windows.Forms.Form. Ты путаешь с окнами, которые наследуются от класса DockContent сборки WeifenLuo.WinFormsUI.Docking.
+>>**FiloXSee, 15 сент. 2011, 11:32**
+>>
+>>Разница в том, что свойства HideOnClose нет в System.Windows.Forms.Form. Ты путаешь с окнами, которые наследуются от класса DockContent сборки WeifenLuo.WinFormsUI.Docking.
 
->>> **mrdekk, 15 сент. 2011, 20:05**
->>> Хм, да действительно путаю.
+>>>**mrdekk, 15 сент. 2011, 20:05**
+>>>
+>>>Хм, да действительно путаю.

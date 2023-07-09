@@ -31,5 +31,4 @@ excerpt_separator: <!--cut-->
 
 ![](http://itw66.ru/uploads/images/00/00/01/2011/04/11/550c83.jpg)
 
-
-<object width="640" height="390"><param name="movie" value="http://www.youtube.com/v/dJ2DxBEykHc&hl=en_US&feature=player_embedded&version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/dJ2DxBEykHc&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></embed></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dJ2DxBEykHc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -34,15 +34,16 @@ P.S. Творение получило название AirStation!
 
 ![](http://itw66.ru/uploads/images/00/00/01/2011/01/07/e3da1d.jpg)
 
-
-<object width="640" height="390"><param name="movie" value="http://www.youtube.com/v/NPLQoTOHVf0&hl=en_US&feature=player_embedded&version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/NPLQoTOHVf0&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></embed></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NPLQoTOHVf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Комментарии
 
-> **dragonmaster, 7 янв. 2011, 14:07**
-> Да для Пекина и Амстердама творение возможно полезное. Однако нам сначала надо научится ездить на велосипедах.<br/>
-<br/>
-Да и в -30 на велосипеде особо не поездишь :(
+>**dragonmaster, 7 янв. 2011, 14:07**
+>
+>Да для Пекина и Амстердама творение возможно полезное. Однако нам сначала надо научится ездить на велосипедах.
+>
+>Да и в -30 на велосипеде особо не поездишь :(
 
->> **sadykh, 7 янв. 2011, 14:14**
->> тоже считаю, что несколько утопично, повыковыривают их у нас :/
+>>**sadykh, 7 янв. 2011, 14:14**
+>>
+>>тоже считаю, что несколько утопично, повыковыривают их у нас :/

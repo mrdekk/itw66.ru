@@ -14,7 +14,7 @@ excerpt_separator: <!--cut-->
 
 Объявление класса:
 
-```
+```objc
 @interface FileSystem : NSObject
 {    // переменные класса
 }
@@ -30,7 +30,7 @@ excerpt_separator: <!--cut-->
 
 Определение класса:
 
-```
+```csharp
 #import "FileSystem.h"
 
 @implementation FileSystem
@@ -96,7 +96,7 @@ static FileSystem* g_sharedFileSystem = nil;
 
 Теперь можно вызвать метод этого объекта следующим образом:
 
-```
+```objc
 [ [ FileSystem getInst ] someMethod ];
 ```
 

@@ -22,8 +22,7 @@ excerpt_separator: <!--cut-->
 
 <!--cut-->
 
-
-<object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/QX6BbP1wAIs?version=3&amp;hl=ru_RU"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/QX6BbP1wAIs?version=3&amp;hl=ru_RU" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QX6BbP1wAIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Такие транзиты случались и раньше, в предыдущих столетиях. В 1627 годау Иоганн Кеплер расчиетал, когда произойдет подобное собыие, богатые смельчаки отправились, порой с большим риском, в далекие уголки на планете, чтобы наблюдать это событие. Для них это событие значило больше, чем просто эстетическое удовольствие; зная орбитальные периоды Земли и Венеры, они использовали транзит для расчета расстояния от Земли до Солнца, и получили значение в 150 миллионов километров.
 

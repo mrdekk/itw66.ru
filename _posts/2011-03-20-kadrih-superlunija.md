@@ -10,10 +10,15 @@ blogcat: Космос
 excerpt_separator: <!--cut-->
 ---
 
-В ночь с 18 на 19 марта случилось суперлуние, мы о нем уже писали [тут ](http://itw66.ru/blog/space/369.html). Сегодня мы предлагаем Вам посмотреть запечатленные моменты.
+
+![](http://itw66.ru/uploads/images/00/00/01/2011/03/20/90e535.jpg)
+
+В ночь с 18 на 19 марта случилось суперлуние, мы о нем уже писали. Сегодня мы предлагаем Вам посмотреть запечатленные моменты.
 
 
 <!--cut-->
+
+[Уже писали тут](http://itw66.ru/blog/space/369.html)
 
 
 Луна над Парфеноном. Автор: [Anthony Ayiomamitis](http://www.perseus.gr/) (TWAN).
@@ -42,4 +47,5 @@ excerpt_separator: <!--cut-->
 
 
 Ну и напоследок видео:
-<object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/LEH0WmCZTAo?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/LEH0WmCZTAo?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></object>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LEH0WmCZTAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

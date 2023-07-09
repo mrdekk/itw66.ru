@@ -22,35 +22,35 @@ excerpt_separator: <!--cut-->
 
 2. Создайте файл ключа, которым вы будете подписывать сборку:
 
-```
+```bash
 sn -k keyPair.snk
 ```
 
 
 3. Получите MSIL из оригинальной сборки:
 
-```
+```bash
 ildasm SomeAssembly.dll /out:SomeAssembly.il
 ```
 
 
 3. переименуйте оригинальную сборку, чтобы осталась:
 
-```
+```bash
 ren SomeAssembly.dll SomeAssembly.dll.orig
 ```
 
 
 4. Создайте новую сборку используя полученный MSIL и подпишите ее вашим ключом:
 
-```
+```bash
 ilasm SomeAssembly.il /dll /key=keyPair.snk
 ```
 
 
 Вот и все, теперь можете использовать подписанную сборку в вашем приложение. Если вам нужны сами утилиты, которыми вы выполняли данные действия, то обычно их можно найти тут:
 
-```
+```bash
 C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\ilasm.exe
 C:\Program Files\Microsoft Visual Studio 8\SDK\v2.0\Bin\ildasm.exe
 C:\Program Files\Microsoft Visual Studio 8\SDK\v2.0\Bin\sn.exe
@@ -58,5 +58,6 @@ C:\Program Files\Microsoft Visual Studio 8\SDK\v2.0\Bin\sn.exe
 
 
 **Другие статьи по теме:**
-[Как подписать C# сборку строгим именем. Использование sn.exe](http://itw66.ru/blog/c_sharp/504.html)
-[Как подписать C++/CLI сборку строгим именем](http://itw66.ru/blog/c_sharp/500.html)
+
+- [Как подписать C# сборку строгим именем. Использование sn.exe](http://itw66.ru/blog/c_sharp/504.html)
+- [Как подписать C++/CLI сборку строгим именем](http://itw66.ru/blog/c_sharp/500.html)

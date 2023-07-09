@@ -24,7 +24,7 @@ excerpt_separator: <!--cut-->
 
 Не пытайтесь использовать .pfx файл. Это не сработает, можно использовать только .snk файл (Strong Name Key). Вы можете его создать при помощи sn.exe утилиты.
 
-```
+```bash
 sn.exe –k [directory]\[filename].snk
 ```
 
@@ -36,5 +36,6 @@ sn.exe –k [directory]\[filename].snk
 
 
 **Другие статьи по теме:**
-[Как подписать C# сборку строгим именем. Использование sn.exe](http://itw66.ru/blog/c_sharp/504.html)
-[Как подписать существующую dll строгим именем](http://itw66.ru/blog/c_sharp/502.html)
+
+- [Как подписать C# сборку строгим именем. Использование sn.exe](http://itw66.ru/blog/c_sharp/504.html)
+- [Как подписать существующую dll строгим именем](http://itw66.ru/blog/c_sharp/502.html)

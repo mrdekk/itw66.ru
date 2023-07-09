@@ -17,7 +17,7 @@ excerpt_separator: <!--cut-->
 
 Для удобства создадим класс, который будет хранить информацию об одном уровне в иерархии стека функций.
 
-```
+```csharp
 public class StackItem
 {
     public String    Module;        // модуль, в котором находится данная функция
@@ -41,7 +41,7 @@ public class StackItem
 Теперь создадим класс Dbg, который будет выполнять всю необходимую работу по получению стека функций.
 
 
-```
+```csharp
 public class Dbg
 {
     // получить коллстек функций для текущего потока в виде строки
@@ -115,7 +115,7 @@ public class Dbg
 Пользоваться данным классом очень легко. Если вам нужна строка, в которой будет записан колстек функций для текущего потока, то вам нужно вызвать функцию **GetStackString**. Полученную строку можно записывать в лог или вывести пользователю в отладочном сообщении.
 
 
-```
+```csharp
 String callstackStr = Dbg.GetStackString(); // получить коллстек функций для текущего потока
 StackItem[] items = Dbg.GetStack(); // получение массива данных о стеке текущего потока
 StackItem[] items = Dbg.GetStack( thread ); // получение массива данных о стеке указанного потока
@@ -125,7 +125,7 @@ StackItem[] items = Dbg.GetStack( thread ); // получение массива
 Вот пример текста, который может быть получен функцией GetStackString, при перехвате исключения. По этому тексту можно в точности определить место в коде, где произошла ошибка.
 
 
-```
+```csharp
 Route.AssignVehicle( rc_Vehicle hVehicle ) Route.cs (1323)
 Vehicle.Update(  ) Vehicle.cs (772)
 wnd_RoutePlanManager.processUpdateable( i_Updateable updateable ) RoutePlanManagerWindow.cs (89)

@@ -10,6 +10,10 @@ blogcat: Блог им. mrdekk
 excerpt_separator: <!--cut-->
 ---
 
-Мы уже однажды [публиковали ](http://itw66.ru/blog/space/384.html) видео от Норвежского фотохудожника Терье Согрерда. Сегодня мы предлагаем Вам еще одну его зарисовку - неделю из жизни млечного пути.
+Мы уже однажды публиковали видео от Норвежского фотохудожника Терье Согрерда. Сегодня мы предлагаем Вам еще одну его зарисовку - неделю из жизни млечного пути.
 
-<object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/8GzqQqU5opo?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/8GzqQqU5opo?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></object>
+<!--cut-->
+
+[Предыдущая публикация ](http://itw66.ru/blog/space/384.html)
+
+<iframe width="560" height="315" src="http://www.youtube.com/v/8GzqQqU5opo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

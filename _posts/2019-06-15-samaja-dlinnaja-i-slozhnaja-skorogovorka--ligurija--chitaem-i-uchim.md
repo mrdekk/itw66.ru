@@ -13,6 +13,7 @@ excerpt_separator: <!--cut-->
 Это одна из самых длинных и сложных скороговорок в мире. Она даже имеет свое название, - "Лигурия". 
 
 Ее имеет смысл изучить, чтобы тренировать дикцию и произношение. Когда ожидается ваше выступление, то достаточно один раз ее проговорить, чтобы размять себя, голосовые связки, привести в тонус звучание всех сложных звуковых сочетаний. 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s9o_-u8dSNs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 

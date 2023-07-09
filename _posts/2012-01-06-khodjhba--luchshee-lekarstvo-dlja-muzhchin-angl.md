@@ -16,6 +16,8 @@ excerpt_separator: <!--cut-->
 
 Этой теме посвящен ролик, который я хочу сегодня здесь опубликовать. Сделан он не мной - я наткнулся на него на просторах ютюба, но он мне ооочень понравился. Поэтому предлагаю его и Вам. 
 
+<!--cut-->
+
 Правда есть одно замечание - он на английском языке.
 
-<object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/aUaInS6HIGo?version=3&amp;hl=ru_RU"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/aUaInS6HIGo?version=3&amp;hl=ru_RU" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aUaInS6HIGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

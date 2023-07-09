@@ -38,10 +38,10 @@ Smart Bird - это сверхлегкая, но тем не менее очен
 
 Полевые испытания:
 
-<object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/nnR8fDW3Ilo?version=3&amp;hl=ru_RU"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/nnR8fDW3Ilo?version=3&amp;hl=ru_RU" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nnR8fDW3Ilo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Анимация:
 
-<object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/9fbmWQ3ExEs?version=3&amp;hl=ru_RU"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/9fbmWQ3ExEs?version=3&amp;hl=ru_RU" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9fbmWQ3ExEs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 [Источник](http://www.festo.com/cms/en_corp/11369.htm)

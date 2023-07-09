@@ -14,8 +14,9 @@ excerpt_separator: <!--cut-->
 
 Итак:
 
-<object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/eX5xgjYPdHo?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/eX5xgjYPdHo?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></object>
+<iframe width="560" height="315" src="http://www.youtube.com/v/eX5xgjYPdHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 Еще одно видео принадлежит Терье Соргджерд. Он провел неделю, чтобы мы смогли увидеть это чудо. Видео просто светится позитивом и показывает, как прекрасна наша планета.
 
-<object width="640" height="390"><param name="movie" value="http://www.youtube.com/v/yNumWY-DBTs&hl=ru_RU&feature=player_embedded&version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/yNumWY-DBTs&hl=ru_RU&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></embed></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yNumWY-DBTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -14,11 +14,7 @@ excerpt_separator: <!--cut-->
 ![](http://itw66.ru/uploads/images/00/00/01/2012/08/08/77f258.jpg)
 
 
-В прошлом году я [отсюдова](http://www.space.com/16503-photos-mars-science-laboratory-curiosity-landing-guide.html), я лишь перевожу на великий могучий.
-
-
 <!--cut-->
-
 
 
 ![](http://itw66.ru/uploads/images/00/00/01/2012/08/08/5bac50.jpg)

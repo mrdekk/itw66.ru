@@ -12,6 +12,8 @@ excerpt_separator: <!--cut-->
 
 В пятницу 11 марта на побережье северной Японии произошло сильное землетрясение магнитудой 8,9 баллов по шкале Рихтера. После этого образовалось сильное цунами, высота волн в некоторых районах достигала 10 метров (это примерно 12 этажный дом). Цунами накрыла побережья многих стран, имеющих выход в Тихий Океан. 
 
+<!--cut-->
+
 Вот карта толчков по данным [сайта USGS](http://earthquake.usgs.gov/earthquakes/recenteqsww/Maps/degree10/145_40.php)
 
 
@@ -35,7 +37,7 @@ excerpt_separator: <!--cut-->
 
 Вот видеоролик, показывающий некоторые кадры с места катастрофы:
 
-<object width="640" height="390"><param name="movie" value="http://www.youtube.com/v/w3AdFjklR50&hl=ru_RU&feature=player_embedded&version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/w3AdFjklR50&hl=ru_RU&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></embed></object>
+<iframe width="560" height="315" src="http://www.youtube.com/v/w3AdFjklR50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Произошедшее землетрясение признано одним из самых сильных в истории землетрясений вообще, и самым сильным за историю Японии. По мнению некоторых специалистов может начать потряхивать весь Тихоокеанский пояс.
 
@@ -43,24 +45,31 @@ excerpt_separator: <!--cut-->
 
 ### Комментарии
 
-> **mrdekk, 13 марта 2011, 13:01**
-> По последним данным на воскресенье, на АЭС «Фукусима-1» существует вероятность спекания ядерного топлива, а следовательно и ядерного взрыва. Пока ситуация не стала катастрофичной, но некоторые специалисты утверждают, что это возможно развитие событий. Также наличия радиоактивного цезия в атмосфере также не добавляет оптимизма.<br/>
-<br/>
-Вот есть хорошая <a href="http://www.bbc.co.uk/russian/science/2011/03/110312_fukushima_analysis.shtml" rel="nofollow">статья </a>BBC Russia о ситуации на АЭС «Фукусима-1»
+>**mrdekk, 13 марта 2011, 13:01**
+>
+>По последним данным на воскресенье, на АЭС «Фукусима-1» существует вероятность спекания ядерного топлива, а следовательно и ядерного взрыва. Пока ситуация не стала катастрофичной, но некоторые специалисты утверждают, что это возможно развитие событий. Также наличия радиоактивного цезия в атмосфере также не добавляет оптимизма.
+>
+>Вот есть хорошая [статья](http://www.bbc.co.uk/russian/science/2011/03/110312_fukushima_analysis.shtml) BBC Russia о ситуации на АЭС «Фукусима-1»
 
-> **mrdekk, 13 марта 2011, 13:16**
-> <object><param name="wmode" value="opaque"></param><param name="movie" value="http://www.youtube.com/v/_0Lyf4YU5lI?version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/_0Lyf4YU5lI?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="640" height="390" wmode="opaque"></embed></object>
+>**mrdekk, 13 марта 2011, 13:16**
+>
+><iframe width="560" height="315" src="http://www.youtube.com/v/_0Lyf4YU5lI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-> **mrdekk, 14 марта 2011, 00:44**
-> <a href="http://www.rian.ru/infografika/20110313/352140155.html" rel="nofollow">Реконструкция аварии</a>, сделанная агентством Риа-Новости.
+>**mrdekk, 14 марта 2011, 00:44**
+>
+>[Реконструкция аварии](http://www.rian.ru/infografika/20110313/352140155.html), сделанная агентством Риа-Новости.
 
-> **mrdekk, 17 марта 2011, 01:01**
-> <a href="http://www.japanquakemap.com/" rel="nofollow">Карта землетрясений</a> в Японии начиная с 11 марта. Всего зафиксировано более 500 землетрясений.
+>**mrdekk, 17 марта 2011, 01:01**
+>
+>[Карта землетрясений](http://www.japanquakemap.com/) в Японии начиная с 11 марта. Всего зафиксировано более 500 землетрясений.
 
-> **mrdekk, 18 марта 2011, 18:26**
-> Агентство BBC Russia подготовило <a href="http://www.bbc.co.uk/russian/international/2011/03/110317_ssi_fukusima_what_wrong.shtml" rel="nofollow">презентацию</a> в которой в наглядной форме представлены основные события на АЭС «Фукусима-1».<br/>
-<br/>
-А еще Forbes.Ru публикует постоянно обновляющуюся <a href="http://www.forbes.ru/ekonomika/lyudi/64830-yaponiya-fukusima-hod-sobytii" rel="nofollow">ленту новостей</a> по событиям на Фукусиме.
+>**mrdekk, 18 марта 2011, 18:26**
+>
+>Агентство BBC Russia подготовило [презентацию](http://www.bbc.co.uk/russian/international/2011/03/110317_ssi_fukusima_what_wrong.shtml) в которой в наглядной форме представлены основные события на АЭС «Фукусима-1».
+>
+>А еще Forbes.Ru публикует постоянно обновляющуюся [ленту новостей](http://www.forbes.ru/ekonomika/lyudi/64830-yaponiya-fukusima-hod-sobytii) по событиям на Фукусиме.
 
-> **mrdekk, 20 марта 2011, 13:37**
-> <strong><a href="http://www.slideshare.net/iaea/summary-of-reactor-unit-status-at-18-march-graham-andrew" title="Summary of reactor unit status at 18 March - Graham Andrew" rel="nofollow">Summary of reactor unit status at 18 March — Graham Andrew</a></strong><object width="425" height="355"><param name="wmode" value="opaque"></param><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=summaryofreactorunitstatusat18-march-11-00utc-sfpstable-110318124159-phpapp01&amp;stripped_title=summary-of-reactor-unit-status-at-18-march-graham-andrew&amp;userName=iaea"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=summaryofreactorunitstatusat18-march-11-00utc-sfpstable-110318124159-phpapp01&stripped_title=summary-of-reactor-unit-status-at-18-march-graham-andrew&userName=iaea" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355" wmode="opaque"></embed></object>View more presentations from <a href="http://www.slideshare.net/iaea" rel="nofollow">IAEA</a>.
+>**mrdekk, 20 марта 2011, 13:37**
+>
+>[**Summary of reactor unit status at 18 March — Graham Andrew**](http://www.slideshare.net/iaea/summary-of-reactor-unit-status-at-18-march-graham-andrew)
+><object width="425" height="355"><param name="wmode" value="opaque"></param><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=summaryofreactorunitstatusat18-march-11-00utc-sfpstable-110318124159-phpapp01&amp;stripped_title=summary-of-reactor-unit-status-at-18-march-graham-andrew&amp;userName=iaea"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=summaryofreactorunitstatusat18-march-11-00utc-sfpstable-110318124159-phpapp01&stripped_title=summary-of-reactor-unit-status-at-18-march-graham-andrew&userName=iaea" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355" wmode="opaque"></embed></object>View more presentations from <a href="http://www.slideshare.net/iaea" rel="nofollow">IAEA</a>.

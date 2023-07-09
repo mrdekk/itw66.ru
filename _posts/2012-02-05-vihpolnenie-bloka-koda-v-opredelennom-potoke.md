@@ -17,47 +17,46 @@ excerpt_separator: <!--cut-->
 
 
 
-```
+```objc
+@implementation NSThread(BlockOnThread)
+ 
++(void)BOT_performBlockOnMainThread:(void (^)())block
+{
+    [[NSThread mainThread] BOT_performBlock: block];
+}
+ 
++(void)BOT_performBlockInBackground:(void (^)())block
+{
+    [NSThread performSelectorInBackground: @selector(BOT_runBlock:)
+                               withObject: [[block copy] autorelease]];
+}
+ 
++(void)BOT_runBlock:(void (^)())block
+{
+    block();
+}
+ 
+-(void)BOT_performBlock:(void (^)())block
+{
+    if ([[NSThread currentThread] isEqual: self])
+        block( );
+    else
+        [self BOT_performBlock: block waitUntilDone: NO];
+}
 
-@implementation NSThread ( BlockOnThread )
- 
-+( void ) BOT_performBlockOnMainThread: ( void ( ^ )( ) )block
+-(void)BOT_performBlock:(void (^)())block waitUntilDone: (BOOL)wait
 {
-  [ [ NSThread mainThread ] BOT_performBlock: block ];
+    [NSThread performSelector: @selector(BOT_runBlock:)
+                     onThread: self
+                   withObject: [[block copy] autorelease]
+                waitUntilDone: wait];
 }
  
-+( void ) BOT_performBlockInBackground: ( void ( ^ )( ) )block
+-(void)BOT_performBlock:(void (^)())block afterDelay: (NSTimeInterval)delay
 {
-  [ NSThread performSelectorInBackground: @selector( BOT_runBlock: )
-                              withObject: [ [ block copy ] autorelease ] ];
-}
- 
-+( void ) BOT_runBlock: ( void ( ^ )( ) )block
-{
-  block( );
-}
- 
--( void ) BOT_performBlock: ( void ( ^ )( ) )block
-{
-  if ( [ [ NSThread currentThread ] isEqual: self ] )
-    block( );
-  else
-    [ self BOT_performBlock: block waitUntilDone: NO ];
-}
-
--( void ) BOT_performBlock: ( void ( ^ )( ) )block waitUntilDone: ( BOOL )wait
-{
-  [ NSThread performSelector: @selector( BOT_runBlock: )
-                    onThread: self
-                  withObject: [ [ block copy ] autorelease ]
-               waitUntilDone: wait ];
-}
- 
--( void ) BOT_performBlock: ( void ( ^ )( ) )block afterDelay: ( NSTimeInterval )delay
-{
-  [ self performSelector: @selector( BOT_performBlock: ) 
-              withObject: [ [ block copy ] autorelease ] 
-              afterDelay: delay ];
+    [self performSelector: @selector(BOT_performBlock:) 
+               withObject: [[block copy] autorelease] 
+               afterDelay: delay];
 }
  
 @end
@@ -79,12 +78,11 @@ excerpt_separator: <!--cut-->
 В идеале, неплохо бы иметь метод, вида:
 
 
+```objc
+-(void)sendFirstName:(NSString *)firstName
+            lastName:(NSString *)lastName
+         companyName:(NSString *)companyName;
 ```
--( void ) sendFirstName: ( NSString* )firstName
-               lastName: ( NSString* )lastName
-            companyName: ( NSString* )companyName;
-```
-
 
 Этот метод производил бы преобразование данных в формат, в котором они будут отсылаться через сеть (например, XML, JSON, ...) и ставил бы в очередь сокета для отправки.
 
@@ -93,21 +91,21 @@ excerpt_separator: <!--cut-->
 Поэтому создадим еще один метод вида:
 
 
-```
--( void ) onNetworkThreadSendFirstName: ( NSString* )firstName
-                              lastName: ( NSString* )lastName
-                           companyName: ( NSString* )companyName;
+```objc
+-(void)onNetworkThreadSendFirstName:(NSString *)firstName
+                           lastName:(NSString *)lastName
+                        companyName:(NSString *)companyName;
 ```
 
 
 и сохраним исходный для использования на главном потоке. Итак, как же вызвать метод на другом потоке? Это нельзя сделать напрямую, вместо этого нам надлежит использовать:
 
 
-```
--( void ) performSelector: ( SEL )selector
-                 onThread: ( NSThread* )thread
-               withObject: ( id )object
-            waitUntilDone: ( BOOL )wait;
+```objc
+-(void)performSelector:(SEL)selector
+              onThread:(NSThread *)thread
+            withObject:(id)object
+         waitUntilDone:(BOOL)wait;
 ```
 
 
@@ -116,47 +114,48 @@ excerpt_separator: <!--cut-->
 Все что нам необходимо сделать, это поместить все три аргумента в один объект. Это можно попытаться сделать с помощью массива, с помощью специального объекта (из пушки по воробьям, так как этот объект будет использоваться только для передачи аргументов в метод) или с помощью словаря, чем мы и воспользуемся.
 
 
-```
--( void ) onNetworkThreadSendArguments: ( NSDictionary* )arguments;
+```objc
+-(void)onNetworkThreadSendArguments:(NSDictionary *)arguments;
 ```
 
 
 Если следовать всему вышесказанному, то код будет выглядеть примерно следующим образом:
 
 
-```
--( void ) sendFirstName: ( NSString* )firstName 
-               lastName: ( NSString* )lastName 
-            companyName: ( NSString* )companyName
+```objc
+-(void)sendFirstName:(NSString *)firstName 
+            lastName:(NSString *)lastName 
+         companyName:(NSString *)companyName
 {
-  NSDictionary* arguments = [ NSDictionary dictionaryWithObjectsAndKeys:
-    firstName, @"firstName",
-    lastName, @"lastName",
-    companyName, @"companyName",
-    nil ];
+    NSDictionary* arguments = [NSDictionary dictionaryWithObjectsAndKeys:
+        firstName, @"firstName",
+        lastName, @"lastName",
+        companyName, @"companyName",
+        nil
+    ];
  
-  [ self performSelector: @selector( onNetworkThreadSendArguments: ) 
-                onThread: networkThread 
-              withObject: arguments 
-           waitUntilDone: NO ];
+    [self performSelector: @selector(onNetworkThreadSendArguments:) 
+                 onThread: networkThread 
+               withObject: arguments 
+            waitUntilDone: NO];
 }
  
--( void ) onNetworkThreadSendArguments: ( NSDictionary* )arguments
+-(void)onNetworkThreadSendArguments:(NSDictionary *)arguments
 {
-  NSString* firstName = [ arguments objectForKey: @"firstName" ];
-  NSString* lastName = [ arguments objectForKey: @"lastName" ];
-  NSString* companyName = [ arguments objectForKey: @"companyName" ];
+    NSString* firstName = [arguments objectForKey: @"firstName"];
+    NSString* lastName = [arguments objectForKey: @"lastName"];
+    NSString* companyName = [arguments objectForKey: @"companyName"];
  
-  [ self onNetworkThreadSendFirstName: firstName
-                             lastName: lastName
-                          companyName: companyName ];
+    [self onNetworkThreadSendFirstName: firstName
+                              lastName: lastName
+                           companyName: companyName];
 }
  
--( void ) onNetworkThreadSendFirstName: ( NSString* )firstName 
-                              lastName: ( NSString* )lastName 
-                           companyName: ( NSString* )companyName
+-(void) onNetworkThreadSendFirstName:(NSString *)firstName 
+                            lastName:(NSString *)lastName 
+                         companyName:(NSString *)companyName
 {
-  //format and send data
+    //format and send data
 }
 ```
 
@@ -164,14 +163,14 @@ excerpt_separator: <!--cut-->
 До Mac OS X 10.6 это было обычной практикой, но она требует много дополнительных методов, упаковку и распаковку аргументов для кросс-поточных вызовов. Но благодаря нашей категории, мы может решить задачу гораздо проще:
 
 
-```
--( void ) sendFirstName: ( NSString* )firstName
-               lastName: ( NSString* )lastName
-            companyName: ( NSString* )companyName
+```objc
+-(void)sendFirstName:(NSString *)firstName
+            lastName:(NSString *)lastName
+         companyName:(NSString *)companyName
 {
-  [ networkThread BOT_performBlock: ^{
-    // format and send data
-  } ];
+    [networkThread BOT_performBlock: ^{
+        // format and send data
+    }];
 }
 ```
 
