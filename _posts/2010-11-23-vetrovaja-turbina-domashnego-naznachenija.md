@@ -22,6 +22,6 @@ excerpt_separator: <!--cut-->
 
 Ниже представлено минивидео, демонстрирующее простоту установки лопастей ветровой турбины.
 
-<object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/1X1L93IiLCI?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/1X1L93IiLCI?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1X1L93IiLCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 P.S. Немножко технических характеристик: высота конструкции составляет 1, 37 м, вес 12 кг, выходное напряжение 12 В постоянного тока. Турбина вырабатывает мощность 220 Вт при скорости ветра 12,5 м/с.

@@ -10,8 +10,6 @@ blogcat: Альтернативная энергетика
 excerpt_separator: <!--cut-->
 ---
 
-В дополнении к [этому посту](http://itw66.ru/blog/alternative_energy/82.html).
-
 
 ![](http://itw66.ru/uploads/images/00/00/01/2010/11/01/e2df0e.jpg)
 
@@ -21,6 +19,7 @@ excerpt_separator: <!--cut-->
 
 <!--cut-->
 
+В дополнении к [этому посту](http://itw66.ru/blog/alternative_energy/82.html).
 
 
 ![](http://itw66.ru/uploads/images/00/00/01/2010/11/01/4bf6e1.jpg)

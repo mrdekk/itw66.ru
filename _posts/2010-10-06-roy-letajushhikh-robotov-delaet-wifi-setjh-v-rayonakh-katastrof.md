@@ -76,21 +76,23 @@ excerpt_separator: <!--cut-->
 
 **Видео**
 
-<object width="640" height="390"><param name="movie" value="http://www.youtube.com/v/pfYs5C8D4uk&hl=en_US&feature=player_embedded&version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/pfYs5C8D4uk&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></embed></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pfYs5C8D4uk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<object width="640" height="390"><param name="movie" value="http://www.youtube.com/v/5DbWVEQ-JzA&hl=en_US&feature=player_embedded&version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/5DbWVEQ-JzA&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></embed></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5DbWVEQ-JzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<object width="640" height="390"><param name="movie" value="http://www.youtube.com/v/tDsVK51yIeo&hl=en_US&feature=player_embedded&version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/tDsVK51yIeo&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></embed></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tDsVK51yIeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Комментарии
 
-> **eXeed, 7 окт. 2010, 00:01**
-> Был тут такой минисериал «Хроники Будущего», и там в одной из серий «Ликвидатор» была летающая птичка, которая высматривала преступников и ликвидировала их. <br/>
-<br/>
-Уж не к этому ли идут подобные разработки.
+>**eXeed, 7 окт. 2010, 00:01**
+>
+>Был тут такой минисериал «Хроники Будущего», и там в одной из серий «Ликвидатор» была летающая птичка, которая высматривала преступников и ликвидировала их.
+>
+>Уж не к этому ли идут подобные разработки.
 
->> **mrdekk, 7 окт. 2010, 00:04**
->> Возможно и так… Можно начинать параноить :)<br/>
-А вообще — подобные системы могут существенно помочь спасателям в их нелегкой работе. Главное чтобы подобные системы не использовались против населения, а для него. Тогда все будет просто замечательно.<br/>
-<br/>
-А «Хроники Будущего» это да, интересные мысли озвучиваются там.
+>>**mrdekk, 7 окт. 2010, 00:04**
+>>
+>>Возможно и так… Можно начинать параноить :)
+>>А вообще — подобные системы могут существенно помочь спасателям в их нелегкой работе. Главное чтобы подобные системы не использовались против населения, а для него. Тогда все будет просто замечательно.
+>>
+>>А «Хроники Будущего» это да, интересные мысли озвучиваются там.

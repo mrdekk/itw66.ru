@@ -10,7 +10,7 @@ blogcat: Космос
 excerpt_separator: <!--cut-->
 ---
 
-Вчера примерно в 21:49 по Москве [обсерватория солнечной динамики](http://sdo.gsfc.nasa.gov/) получила снимки гигантского протуберанца на Солнце. Петля образованная им достигала 700 000 км в ширину. Только подумайте - это примерно радиус Солнца!
+Вчера примерно в 21:49 по Москве обсерватория солнечной динамики получила снимки гигантского протуберанца на Солнце. Петля образованная им достигала 700 000 км в ширину. Только подумайте - это примерно радиус Солнца!
 
 Фотография Солнца в ультрафиолетовом свете:
 
@@ -20,6 +20,8 @@ excerpt_separator: <!--cut-->
 
 
 <!--cut-->
+
+[обсерватория солнечной динамики](http://sdo.gsfc.nasa.gov/)
 
 
 Однако, для нас, жителей планеты Земля, конкретно этот протуберанец не представляет опасности. Даже несмотря на то, что подобный протуберанец может поглотить тысячи планет, подобных нашей Земле. В данном случае он не сопровождался коронарными массовыми выбросами или вспышками, которые могли бы навредить нашим спутникам и энергосистемам. 
@@ -32,4 +34,4 @@ excerpt_separator: <!--cut-->
 
 На видио представлен отрезок времени в 48 часов между 4-м и 6-м декабря.
 
-<object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/GybRTToxSQI?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/GybRTToxSQI?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GybRTToxSQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

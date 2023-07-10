@@ -12,12 +12,12 @@ excerpt_separator: <!--cut-->
 
 Жители небольшого Датского острова Самсё объединились и совершили социально-энергетическую революцию. Небольшой балтийский остров стал одним из первых индустриальных мест в мире, которые можно квалифицировать как полностью энергетически самодостаточный.
 
-<a href="http://itw66.ru/files/power_samso.png">
 ![](http://itw66.ru/uploads/images/00/00/01/2010/09/22/d1eed8.png)
-</a>
 
 
 <!--cut-->
+
+![](http://itw66.ru/files/power_samso.png)
 
 
 Этот остров стал большой победой Дании, предоставив ей право стать местом для проведения очередного саммита ООН по изменению климата. Дания теперь может похвастаться регионом, который единственный на всей планете может стать прообразом для энергетического производства будущего. Все началось в 1997 году, когда Самсё выиграл соревнование между пятью Датскими островами на право стать "Островом возобновляемой энергии", благодаря тому, что представил 10-летний план по переходу с нефти и газа на экологически чистые технологии. До этого Самсё находился в кризисе из-за того, что закрылась скотобойня - основной бизнес на острове.
@@ -40,6 +40,6 @@ excerpt_separator: <!--cut-->
 
 Однако, одних только слов о сохранении окружающей среды с помощью возобновляемых источников недостаточно чтобы вытеснить традиционные. Правительства и частные инвесторы должны знать, что ставки повышаются, и если они последуют примеру Самсё и Датского правительства, то они тоже смогут получить прибыль.
 
-<object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/baeGMF-z0fM&color1=0xb1b1b1&color2=0xd0d0d0&hl=en_GB&feature=player_embedded&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/baeGMF-z0fM&color1=0xb1b1b1&color2=0xd0d0d0&hl=en_GB&feature=player_embedded&fs=1" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="385"></embed></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/baeGMF-z0fM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 [Источник](http://www.ngpowereu.com/news/samso-energy-self-sufficient/)

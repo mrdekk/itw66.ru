@@ -12,6 +12,10 @@ excerpt_separator: <!--cut-->
 
 Продолжаю публиковать не только интересные, но и полезные материалы. По многочисленным заявкам выкладываю карту геотермальных ресурсов России.
 
+![](http://itw66.ru/uploads/images/00/00/01/2010/11/15/a8b7f7.jpg)
+
+<!--cut-->
+
 <a href="http://itw66.ru/files/termal_energy.jpg">
 ![](http://itw66.ru/uploads/images/00/00/01/2010/11/15/a8b7f7.jpg)
 </a>

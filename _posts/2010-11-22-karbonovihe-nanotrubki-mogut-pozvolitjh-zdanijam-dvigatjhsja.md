@@ -20,7 +20,7 @@ excerpt_separator: <!--cut-->
 <!--cut-->
 
 
-<object width="640" height="390"><param name="movie" value="http://www.youtube.com/v/6Mpfxpygs3g&rel=0&hl=en_US&feature=player_embedded&version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/6Mpfxpygs3g&rel=0&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></embed></object>
+<iframe width="560" height="315" src="http://www.youtube.com/v/6Mpfxpygs3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Секретный "соус", разработанный фирмой Decker Yeadon, называется NanoINK. Он представляет собой соединение углеродных нанотрубок, деионизированной воды и химического соединения, которое позволяет трубкам перемешиваться в воде. Этот материал передает электрические свойства нанотрубок поверхности, на которую нанесен NanoINK, например, бумаге или хлопку. Это означает, что однажды обычная офисная бумага сможет проводить электричество.
 

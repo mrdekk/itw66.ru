@@ -21,7 +21,7 @@ excerpt_separator: <!--cut-->
 <!--cut-->
 
 
-<object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/UqhkfIrJ_Ic?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/UqhkfIrJ_Ic?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UqhkfIrJ_Ic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Учёные утверждают, что данное открытие может означать, что в нашей галактике есть вероятность существования потенциально обитаемых планет.
 

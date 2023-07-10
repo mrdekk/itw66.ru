@@ -28,4 +28,4 @@ excerpt_separator: <!--cut-->
 
 Концепт был представлен в Японии в ноябре, однако пока нет никаких данных поступит ли он в серийное производство. В то же время, отрадно видеть, что Nissan разрабатывает электромобили для разных сегментов рынка. Чтож, так держать.
 
-<object width="640" height="390"><param name="movie" value="http://www.youtube.com/v/TWUGSRFnf-8&hl=en_US&feature=player_embedded&version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/TWUGSRFnf-8&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></embed></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TWUGSRFnf-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

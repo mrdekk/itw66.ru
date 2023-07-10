@@ -13,12 +13,11 @@ excerpt_separator: <!--cut-->
 
 ![](http://itw66.ru/uploads/images/00/00/02/2010/12/01/ec27b1.png)
 
-#### Магические руны
-
-
 Руны являются алфавитным скриптом, используемым народами Северной Европы с первого века нашей эры вплоть до средних веков.
 
 <!--cut-->
+
+#### Магические руны
 
 В дополнение к их использованию в качестве письменного алфавита, руны, также служили в качестве системы символы, используемые для магии и гадания. 
 
@@ -42,7 +41,9 @@ excerpt_separator: <!--cut-->
 Стоит отметить, что в версии для iPad интерфейс адаптирован под большую рабочую поверхность, что облегчает навигацию в игре и способствует процессу гадания.
 
 Игровой процесс на айпаде:
-<object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/y94RZjsdIMg?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/y94RZjsdIMg?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></object>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y94RZjsdIMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Игровой процесс на айфоне:
-<object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/zsxwTYmGn9E?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/zsxwTYmGn9E?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></object>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zsxwTYmGn9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

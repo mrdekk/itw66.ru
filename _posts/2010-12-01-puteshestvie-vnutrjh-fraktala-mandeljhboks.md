@@ -14,7 +14,8 @@ excerpt_separator: <!--cut-->
 
 Однако, очень сложно поверить, что такой космический город может быть порождён всего лишь вот такой формулой v = s*ballFold(r, f*boxFold(v)) + c !!!
 
-<object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/bO9ugnn8DbE?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/bO9ugnn8DbE?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bO9ugnn8DbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 _Анимация была создана с помощью программы Mandelbulber 0.80
 © Copyright by Krzysztof Marczak
 Музыка: “Crystal Harmony” (Ray Kelley Band)_

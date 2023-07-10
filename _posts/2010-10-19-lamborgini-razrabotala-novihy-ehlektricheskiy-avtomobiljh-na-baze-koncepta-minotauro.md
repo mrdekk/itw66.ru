@@ -47,4 +47,4 @@ excerpt_separator: <!--cut-->
 ![](http://itw66.ru/uploads/images/00/00/01/2010/10/19/b83a87.jpg)
 
 
-<object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/U5Hiyz1spMg?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/U5Hiyz1spMg?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U5Hiyz1spMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

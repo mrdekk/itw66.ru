@@ -16,7 +16,7 @@ excerpt_separator: <!--cut-->
 
 Один из мостов примерно 7 метров в ширину в верхнем части, и 9 - в нижней. Если астронавт захочет пройти его полностью с одной стороны до другой, то он пройдет примерно 20 метров.
 
-<object style="height: 344px; width: 425px"><param name="movie" value="http://www.youtube.com/v/cg9T9AwUi0s?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/cg9T9AwUi0s?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="425" height="344"></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cg9T9AwUi0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Под катом статья и еще немного картинок
 

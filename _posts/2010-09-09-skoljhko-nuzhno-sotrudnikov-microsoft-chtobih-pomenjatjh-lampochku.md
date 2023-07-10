@@ -10,6 +10,10 @@ blogcat: Блог им. mrdekk
 excerpt_separator: <!--cut-->
 ---
 
+Юмор под катом
+
+<!--cut-->
+
 По мотивам вот [этого](http://blogs.msdn.com/b/ericlippert/archive/2003/10/28/53298.aspx).
 
 

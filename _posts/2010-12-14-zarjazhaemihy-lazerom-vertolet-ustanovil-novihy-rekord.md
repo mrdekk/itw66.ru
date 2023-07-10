@@ -19,8 +19,7 @@ excerpt_separator: <!--cut-->
 
 <!--cut-->
 
-
-<object width="640" height="390"><param name="movie" value="http://www.youtube.com/v/DT51M721j-k&rel=0&hl=en_US&feature=player_embedded&version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/DT51M721j-k&rel=0&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></embed></object>
+<iframe width="560" height="315" src="http://www.youtube.com/v/DT51M721j-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Во время пресс-конференции, Том Нагент, президент и сооснователь компании LaserMotive сказал: "Эта демонстрация отметить веху, когда начались полеты беспилотных летательных аппаратов, питающихся светом лазера. Эта веха станет важным шагом вперед в дальнейшее развитие технологии полетов."
 
