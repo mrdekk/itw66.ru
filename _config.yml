@@ -166,6 +166,13 @@ exclude:
   - node_modules
   - package*.json
 
+include:
+  - yandex_5db86ba7f7125dd7.txt
+  - WMT971D31E8.HTML
+  - y_key_88e6f30e200ae706.html
+  - Ip29quLZdZux4uO749WRMPD2JTo.txt
+  - uralweb.xml
+
 jekyll-archives:
   enabled: [categories, tags]
   layouts:
